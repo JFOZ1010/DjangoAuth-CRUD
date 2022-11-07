@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container py-5">
+    <section class="card card-body">
+
+        <h1 class="display-1 text-center">Django App</h1>
+        <p>{% lorem 2 b random %}</p>   
+
+        <div class="text-center">
+            <a class="btn btn-dark" href="/signin">
+                Sign In
+            </a>
+
+            <a class="btn btn-dark" href="/signup">
+                Sign Up
+            </a>
+
+        </div>
+
+</section>
+</main>
+
+{% endblock %}
+
+    
